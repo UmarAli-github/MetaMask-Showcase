@@ -1,0 +1,27 @@
+.glassmorphism {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.grad-background{
+    background-color: rgb(56, 189, 248);
+    background-image: radial-gradient(at 6% 85%, rgb(153, 27, 27) 0, transparent 60%), radial-gradient(at 92% 87%, rgb(75, 85, 99) 0, transparent 94%), radial-gradient(at 87% 92%, rgb(30, 58, 138) 0, transparent 21%), radial-gradient(at 56% 9%, rgb(110, 231, 183) 0, transparent 5%), radial-gradient(at 1% 97%, rgb(139, 92, 246) 0, transparent 18%), radial-gradient(at 31% 55%, rgb(13, 148, 136) 0, transparent 21%);
+  
+}
+
+.text-gradient {
+    background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .address-gradient { background-image: radial-gradient(at 4% 36%, rgb(231, 25, 25) 0, transparent 100%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
